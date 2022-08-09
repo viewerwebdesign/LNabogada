@@ -26,6 +26,8 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -11556,5 +11558,8 @@ p{
  color: #a8a8a8;
 }
 
-
+.fa-clock, .fa-phone, .fa-envelope, .fa-location-dot{
+  font-size: 1.5em;
+  color: white;
+}
 

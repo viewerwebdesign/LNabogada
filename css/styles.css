@@ -11382,10 +11382,14 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #7e4b4c;
-
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.page-section .container .text-center i{
+  font-size: 2em;
+}
+
 section#contact .section-heading {
   color: #fff;
 }

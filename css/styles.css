@@ -11454,7 +11454,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .wsp{
   background-color: #2e6329;
-      border:1vh solid #f8f9fa;
+      border:vh solid #f8f9fa;
       position: fixed;
       z-index: 999;
       border-radius:50%;

@@ -106,15 +106,21 @@ ol ul,
 ul ol {
   margin-bottom: 0;
 }
+.copy-footer{
+  color: #171715;
+  text-decoration: none;
+  text-align: center;
 
+}
 
 
 a {
-  color: #ffc800;
-  text-decoration: underline;
+  color: #171715;
+  text-decoration: none;
+  
 }
 a:hover {
-  color: #cca000;
+  color: #cca000; text-align: center;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -9573,7 +9579,7 @@ textarea.form-control-lg {
   }
 
   .text-lg-start {
-    text-align: left !important;
+    text-align: center !important;
   }
 
   .text-lg-end {
@@ -10999,13 +11005,14 @@ p {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #7e4b4c;
+  box-shadow: #c4807f 1px 1px 5px;;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-size: 0.75rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 700;box-shadow: #0c4128;
 }
 #mainNav .navbar-brand {
   color: #7e4b4c;
@@ -11016,7 +11023,7 @@ p {
 }
 #mainNav .navbar-brand img {
   height: 10vh;
-  box-shadow: white 1px 1px 15px;
+  box-shadow: #c4807f 1px 1px 15px;
   border-radius: 50%;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -11385,7 +11392,7 @@ header.masthead .masthead-heading {
 section#contact {
   background-color: #7e4b4c;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center;box-shadow: #7e4b4c 1px 1px 5px;
 }
 
 .page-section .container .text-center i{
@@ -11447,13 +11454,13 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .wsp{
   background-color: #2e6329;
-      border:1vh solid white;
+      border:1vh solid #f8f9fa;
       position: fixed;
       z-index: 999;
       border-radius:50%;
-      bottom: 12vh;
+      bottom: 11vh;
       right: 2vh;
-      padding: 2.5vh;
+      padding: 1.5vh;
       transition: ease 0.3s;
       width: 2.5vh;
       animation: efecto 1.2s infinite;
